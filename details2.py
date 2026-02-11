@@ -1,0 +1,5 @@
+name=input("name: ")
+branch=input("branch: ")
+section=input("section: ")
+rollno =  int(input("roll number"))
+print(name, branch,section,rollno, sep="\n")
