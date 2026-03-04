@@ -5,5 +5,5 @@ def is_sorted(userlist):
     else:
         return False
 
-userlist=[int(n) for n in input("input a list of numbers:").split()]
+userlist=[n for n in input("input a list of numbers:").split()]
 print(is_sorted(userlist))
