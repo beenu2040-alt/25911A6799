@@ -1,6 +1,6 @@
 
 try:
-    a=int(input("enter a value: "))
+    a=int(input("enter a value: w"))
     b=int(input("enter a value: "))
     c=a/b
     print(c)
