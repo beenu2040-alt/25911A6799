@@ -1,0 +1,10 @@
+import module
+l=int(input("length:"))
+b=int(input("bredth:"))
+s=int(input("side:"))
+h=int(input("height:"))
+r=int(input("radius:"))
+print("area of rectangle:",module.rectangle(l,b))
+print("area of square:",module.square(l,b))
+print("area of circle:",module.circle(l,b))
+print("area of triangle:",module.triangle(l,b))
