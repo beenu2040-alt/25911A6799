@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(to left,rgb(104, 124, 236),rgb(245, 101, 173));
+    display: block;
+}
+input{
+    background-color:rgb(241, 166, 231);
+}
+textarea{
+    background-color: rgb(165, 238, 243);
+}
+#submit{
+    background-color: rgb(160, 202, 238);
+}
+#submit:hover{
+    background-color: aliceblue;
+}
+#thankYouPage{
+    display: none;
+    flex-direction: column; 
+    position: absolute;
+    padding: 10px;
+    padding-bottom: 100px;
+    top: 30%;
+    left: 30%;
+    border: 1px solid black;
+    background-color: rgb(240, 200, 147);
+    border-radius: 9%;
+}
+#nextpage{
+    display: none;
+    flex-direction: column; 
+    position: absolute;
+    padding: 10px;
+    padding-bottom: 100px;
+    top: 30%;
+    left: 30%;
+    border: 1px solid black;
+    background-color: rgb(240, 200, 147);
+    border-radius: 9%;
+}
