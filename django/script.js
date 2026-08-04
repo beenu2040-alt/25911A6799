@@ -9,6 +9,7 @@ button1.addEventListener("click", (event) =>{
     event.preventDefault();
     home.style.display="none";
     div.style.display = "flex";
+    alert("response submitted")
     
 });
 button2.addEventListener("click", (event) =>{
