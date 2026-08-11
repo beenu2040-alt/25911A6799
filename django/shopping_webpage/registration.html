@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    
+</head>
+<body>
+    
+<div id="homepage">
+    <h2>Registration form</h2>
+    <form>
+        <p id="username">
+            <label for="username">username:</label><br>
+            <input type="text" id="username" name="username" required>
+        </p>
+        <p>
+            <label for="password">password:</label><br>
+            <input type="password" id="password" name="password" required>
+        </p>
+        <p>
+            <label for="dob">date of birth:</label><br>
+            <input type="date" id="dob" name="dob" required>
+        </p>
+        <p>
+            <label>gender:</label><br>
+            <input type="radio" name="gender" value="male" requred> Male
+            <input type="radio" name="gender" value="female" requred> Female
+            <input type="radio" name="gender" value="other" requred> Other
+        </p>
+        <p>
+            <label for="eamil">Mail-id</label><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+            <label for="contact">contact</label><br>
+            <input type="tel" id="contact" name="contact" pattern="[0-9]{10}"
+            placeholder="10-digit number" required>
+        </p>
+        <p>
+            <label for="address">address:</label><br>
+            <textarea id="address" name="address" rows="3" required></textarea>
+        </p>
+        <div id="button">
+            <button id="submit" type="submit" >submit</button>
+        </div>
+        
+    </form>
+</div>
+    
+    
+</body>
+</html>
