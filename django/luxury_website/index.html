@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maison Élan — Discover curated luxury clothing crafted from the world's finest fabrics. Timeless elegance for the modern connoisseur.">
+  <title>Maison Élan | Luxury Clothing — Curated Elegance</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#" class="nav-logo" aria-label="Maison Élan Home">MAISON<span>.</span></a>
+
+    <ul class="nav-links">
+      <li><a href="#collection">Collection</a></li>
+      <li><a href="#editorial">Lookbook</a></li>
+      <li><a href="#values">Our Story</a></li>
+      <li><a href="#newsletter">Journal</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="nav-action-btn" id="search-btn" aria-label="Search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+      </button>
+      <button class="nav-action-btn" id="cart-toggle" aria-label="Shopping bag">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+        <span class="cart-count" id="cart-count">0</span>
+      </button>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <span class="hero-tag fade-in delay-1">Autumn / Winter 2026</span>
+      <h1 class="hero-title fade-in delay-2">
+        Crafted for<br>
+        <em>Timeless</em><br>
+        Elegance
+      </h1>
+      <p class="hero-description fade-in delay-3">
+        Discover our curated collection of luxury essentials — where heritage craftsmanship meets contemporary silhouettes, crafted from the world's finest fabrics.
+      </p>
+      <div class="hero-actions fade-in delay-4">
+        <a href="#collection" class="btn-primary">
+          <span>Explore Collection</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+            <polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </a>
+        <a href="#editorial" class="btn-secondary">View Lookbook</a>
+      </div>
+    </div>
+    <div class="hero-image fade-in-right delay-2">
+      <img src="images/hero.jpg" alt="Model wearing Maison Élan luxury forest green overcoat in sunlit marble atrium">
+      <div class="hero-image-overlay fade-in delay-5">
+        <span class="hero-stat-number">150+</span>
+        <div>
+          <span class="hero-stat-text">Handcrafted<br>Pieces</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE BANNER ===== -->
+  <div class="marquee-banner" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Free Worldwide Shipping</span>
+      <span>Sustainably Sourced</span>
+      <span>Complimentary Gift Wrapping</span>
+      <span>Handcrafted With Care</span>
+      <span>90-Day Returns</span>
+      <span>Free Worldwide Shipping</span>
+      <span>Sustainably Sourced</span>
+      <span>Complimentary Gift Wrapping</span>
+      <span>Handcrafted With Care</span>
+      <span>90-Day Returns</span>
+    </div>
+  </div>
+
+  <!-- ===== COLLECTION / PRODUCTS ===== -->
+  <section class="products-section" id="collection">
+    <div class="section-header fade-in">
+      <span class="section-tag">Curated Selection</span>
+      <h2 class="section-title">The Autumn Edit</h2>
+      <p class="section-subtitle">Refined essentials designed for effortless sophistication — each piece tells a story of exceptional craftsmanship.</p>
+    </div>
+    <div class="product-grid" id="product-grid">
+      <!-- Products rendered by JS -->
+    </div>
+  </section>
+
+  <!-- ===== BRAND VALUES ===== -->
+  <section class="values-section" id="values">
+    <div class="section-header fade-in">
+      <span class="section-tag">Our Philosophy</span>
+      <h2 class="section-title" style="color: var(--cream);">The Maison Standard</h2>
+      <p class="section-subtitle" style="color: rgba(249,246,240,0.55);">Every detail considered. Every stitch intentional.</p>
+    </div>
+    <div class="values-grid">
+      <div class="value-card fade-in delay-1">
+        <div class="value-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+          </svg>
+        </div>
+        <h3 class="value-title">Artisan Craft</h3>
+        <p class="value-text">Each garment hand-finished by master artisans with decades of heritage expertise.</p>
+      </div>
+      <div class="value-card fade-in delay-2">
+        <div class="value-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <h3 class="value-title">Ethical Sourcing</h3>
+        <p class="value-text">Premium materials sourced from certified sustainable mills across Europe and Japan.</p>
+      </div>
+      <div class="value-card fade-in delay-3">
+        <div class="value-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </div>
+        <h3 class="value-title">Timeless Design</h3>
+        <p class="value-text">Silhouettes that transcend seasons — built to endure both time and trend.</p>
+      </div>
+      <div class="value-card fade-in delay-4">
+        <div class="value-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 22 12 16 16 16 8"/>
+          </svg>
+        </div>
+        <h3 class="value-title">White-Glove Service</h3>
+        <p class="value-text">Complimentary worldwide delivery with bespoke packaging and personal styling.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDITORIAL SECTION ===== -->
+  <section class="editorial-section" id="editorial">
+    <div class="editorial-grid">
+      <div class="editorial-image fade-in-left delay-1">
+        <img src="images/product_blazer.jpg" alt="Double-breasted navy blazer — Maison Élan editorial">
+      </div>
+      <div class="editorial-content">
+        <span class="section-tag fade-in delay-2">The Lookbook</span>
+        <h2 class="editorial-title fade-in delay-3">Refined<br><em>Understated</em><br>Luxury</h2>
+        <p class="editorial-text fade-in delay-4">
+          Our Autumn/Winter 2026 lookbook explores the intersection of effortless sophistication and modern minimalism. 
+          Each ensemble is designed to move seamlessly from morning to evening — a wardrobe without boundaries.
+        </p>
+        <div class="fade-in delay-5">
+          <a href="#collection" class="btn-primary">
+            <span>Shop the Edit</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="newsletter-section" id="newsletter">
+    <div class="newsletter-inner fade-in">
+      <span class="section-tag">Stay Connected</span>
+      <h2 class="newsletter-title">Join the Maison</h2>
+      <p class="newsletter-text">Be the first to discover new arrivals, exclusive previews, and curated style guides — delivered to your inbox.</p>
+      <form class="newsletter-form" id="newsletter-form" aria-label="Newsletter signup">
+        <input type="email" placeholder="Enter your email address" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="nav-logo">MAISON<span>.</span></span>
+        <p>Curated luxury for the modern connoisseur. Crafted with heritage, designed for tomorrow.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#collection">New Arrivals</a>
+        <a href="#collection">Outerwear</a>
+        <a href="#collection">Knitwear</a>
+        <a href="#collection">Accessories</a>
+        <a href="#collection">Sale</a>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <a href="#values">Our Story</a>
+        <a href="#values">Sustainability</a>
+        <a href="#editorial">Lookbook</a>
+        <a href="#newsletter">Journal</a>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <a href="#">Shipping & Returns</a>
+        <a href="#">Size Guide</a>
+        <a href="#">Contact Us</a>
+        <a href="#">FAQs</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Maison Élan. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="Pinterest">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M8 12c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4"/>
+            <line x1="12" y1="16" x2="10" y2="22"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== CART DRAWER ===== -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-label="Shopping bag">
+    <div class="cart-header">
+      <h3>Your Bag <span id="cart-header-count">0 items</span></h3>
+      <button class="cart-close" id="cart-close" aria-label="Close cart">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="cart-items" id="cart-items">
+      <!-- Cart items rendered by JS -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <span id="cart-subtotal">$0</span>
+      </div>
+      <p class="cart-shipping-note">Complimentary shipping on orders over $500</p>
+      <button class="cart-checkout-btn" id="checkout-btn">
+        <span>Proceed to Checkout</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+        </svg>
+      </button>
+    </div>
+  </aside>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+    </svg>
+    <span id="toast-message"></span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
