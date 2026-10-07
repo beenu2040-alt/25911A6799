@@ -1,14 +1,9 @@
 public class MCatchDemo1 {
     public static void main(String[] args){
-
 try{
-
-            // ArithmeticException
-            int a = 10 / 0;
-            int arr[] = new int[5];
-
-            // ArrayIndexOutOfBoundsException
-arr[10] = 50;
+        int a = 10 / 0;
+        int arr[] = new int[5];
+        arr[10] = 50;
         }
         catch (ArithmeticException e) {
 System.out.println("Arithmetic Exception occurred");
