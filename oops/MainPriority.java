@@ -11,7 +11,7 @@ class PriorityDemo extends Thread
 	try{
 		for(int i=1;i<=3;i++)
 		System.out.println("thread "+name);
-	Thread.sleep(10000);
+	Thread.sleep(1000);
 		}
 catch(Exception e){
 System.out.println(e);

@@ -11,7 +11,7 @@ class MyThread1 extends Thread
 	try{
 		for(int i=1;i<=5;i++)
 		System.out.println("thread "+name);
-	Thread.sleep(90000);
+	Thread.sleep(1000);
 	}
 catch(Exception e){
 System.out.println(e);
