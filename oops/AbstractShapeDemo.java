@@ -1,9 +1,9 @@
 abstract class Shape {
     int a;
     int b;
-Shape(int a, int b) {
-this.a = a;
-this.b = b;
+    Shape(int a, int b) {
+        this.a = a;
+        this.b = b;
     }
 
     abstract void printArea();
@@ -11,12 +11,12 @@ this.b = b;
 
 class Rectangle extends Shape {
 
-Rectangle(int length, int breadth) {
-super(length, breadth);
+    Rectangle(int length, int breadth) {
+        super(length, breadth);
     }
 
     void printArea() {
-System.out.println("Area of Rectangle: " + (a * b));
+        System.out.println("Area of Rectangle: " + (a * b));
     }
 }
 
